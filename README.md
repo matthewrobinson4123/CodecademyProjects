@@ -10,3 +10,8 @@ Credit Card Checker:
 Mysterious Organism:
 - initial 2 functions provided by Codecademy
 - Object Factory that creates organisms. Objects have functions to check survivability, compare DNA to other organism objects, and mutate the DNA strand
+
+
+Mixed Messages:
+- Custom message generator
+- Object accesses internal array with inspirational strings, collects three unique strings and returns an unique inspirational message every time the program is run.
