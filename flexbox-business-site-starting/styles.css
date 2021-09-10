@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url("images/space-background.jpg");
+    color: bisque;
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 100%;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    padding-right: 20px;
+}
+
+.navbar p{
+    padding: 10px 10px;
+}
+
+a{
+    color:blanchedalmond;
+}
+
+.main{
+    margin: 100px auto;
+}
