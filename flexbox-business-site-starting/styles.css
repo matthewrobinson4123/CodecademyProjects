@@ -52,5 +52,29 @@ a{
 }
 
 .main{
+    padding-top: 150px;
     margin: 100px auto;
+}
+
+.about-container{
+    background-image: url("images/galaxy-background.jpg");
+    background-position: center;
+    background-size: 950px;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    padding: auto;
+}
+
+.about-text{
+    padding-top: 40px;
+}
+
+.banner{
+    
+}
+
+.banner h2, .banner h4{
+    background-color: black;
+    padding: 20px;
 }
