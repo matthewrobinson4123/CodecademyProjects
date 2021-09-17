@@ -11,6 +11,10 @@ body {
     text-align: center;
 }
 
+h3{
+    padding: 10px;
+}
+
 .header{
     background-color: black;
     display: flex;
@@ -21,6 +25,7 @@ body {
     top: 0px;
     justify-content: space-between;
     opacity: 0.8;
+    color: purple;
 }
 
 .logo{
@@ -47,34 +52,65 @@ body {
     padding: 10px 10px;
 }
 
-a{
-    color:blanchedalmond;
-}
-
 .main{
-    padding-top: 150px;
     margin: 100px auto;
 }
 
+.about-container, .investment-container, .team-container, .contact-container{
+    border: 5px red dotted;
+    margin: 50px auto;
+    width: 70%;
+}
+
 .about-container{
+    height: auto;
+}
+
+.content{
+    padding: 20px;
+}
+
+
+
+.banner{
+    width: 100%;
     background-image: url("images/galaxy-background.jpg");
     background-position: center;
     background-size: 950px;
-    height: auto;
-    width: 50%;
-    margin: auto;
-    padding: auto;
 }
 
 .about-text{
     padding-top: 40px;
 }
 
-.banner{
-    
+#investables{
+    min-height: 500px;
+    margin: auto;
 }
 
-.banner h2, .banner h4{
-    background-color: black;
-    padding: 20px;
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image img{
+    height: auto;
+    padding: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+.image p{
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
 }
