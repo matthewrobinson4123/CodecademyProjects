@@ -54,10 +54,11 @@ h3{
 
 .main{
     margin: 100px auto;
+    margin-bottom: 0px;
 }
 
 .about-container, .investment-container, .team-container, .contact-container{
-    border: 5px red dotted;
+    border: 0px black hidden;
     margin: 50px auto;
     width: 70%;
 }
@@ -134,4 +135,26 @@ h3{
 .team-member img{
     width: auto;
     height: 200px;
+}
+
+.contact-container, .copyright{
+    padding: 10px;
+}
+
+.contact-container p{
+    font-size: 0.75rem;
+}
+
+.copyright{
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
 }
