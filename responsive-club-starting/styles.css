@@ -47,3 +47,59 @@ li {
     padding: 2rem;
     text-align: center;
 }
+
+.about{
+    padding: 0 1rem;
+}
+
+.about, .activities, .tournament{
+    margin: 4em auto;
+}
+
+.about-pictures img{
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.activities{
+    padding: 1rem;
+}
+
+.activities-pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 2rem;
+}
+
+.activities-pictures figure{
+    margin: 2rem;
+    max-height: 100px;
+}
+
+.activities-pictures figure img{
+    max-height: 170px;
+}
+
+
+
+@media only screen and (max-width: 640px){
+    .activities-pictures figure{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5rem;
+    }
+}
+
+@media only screen and (max-width: 1048px){
+    .activities-pictures figure{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5rem;
+    }
+}
