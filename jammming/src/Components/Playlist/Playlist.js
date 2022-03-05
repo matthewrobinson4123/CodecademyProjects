@@ -6,7 +6,7 @@ import './Playlist.css';
 class Playlist extends React.Component {
     constructor(props){
         super(props);
-        this.handleNameChange.bind(this);
+        this.handleNameChange = this.handleNameChange.bind(this);
     }
 
     handleNameChange(e){
